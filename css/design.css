@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* css variables */
+@import url('variables/variables.css');
+
+body{
+    background: #f3f3f3;
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar{
+    background-color: #194e92;
+    padding: 0.60rem 2.75rem; /*top-bottom and left-right*/
+}
+.form-custom{
+    padding: 0 .75rem;
+}
+.brand{
+    font-size: 32px;
+    font-weight: 700;
+}
+.nav-item{
+    margin-right: 1.75rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1rem;
+}
+.btn-custom{
+    background-color: white;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 15px 15px;
+    width: 10vw;
+    margin-right: .75rem;
+    transition: .4s ease;
+}
+.btn-custom:hover{
+    color:  #777777;
+    box-shadow: 0px 4.75px  #afafaf;
+}
+main{
+    color: white;
+    height: 100vh;
+    background: #194e92;
+}
+.hero-main{
+    padding: 6rem 0;
+}
+.banner-img > img{
+    padding: 7rem 0;
+    width: 80rem;
+}
+.display-6{
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.20em;
+    padding-top: 29%;
+}
+.display-7{
+    padding-top: 1%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 37px;
+}
+.btn-hero{
+   justify-content: center;
+   align-items: center;
+   margin-top: 1rem;
+}
+.btn-separate{
+    margin-top: -1rem;
+}
+#btn-getstarted{
+    background: #58cc02;
+    box-shadow: 0px 4.75px  #3aad01;
+}
+#btn-acct{
+    background: transparent;
+    border: 2px solid #0f2f5a;
+    box-shadow: 0px 4.75px#0f2f5a;
+}
+
+.btn-banner{
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 15px 15px;
+    width: 25vw;
+    padding: .75rem;
+    transition: .4s ease;
+}
+.btn-login{
+    background-color: #fff;
+    border: 2px solid black;
+    text-transform: uppercase;
+}
+.about-area{
+    padding: 8rem 5rem;
+}
+.footer-area{
+    padding: 3rem 0;
+    background: #194e92;
+}
+.logo-bg{
+    position: relative;
+    bottom: -26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 200px;
+}
+.pattern{
+    position: absolute;
+    right: 0;
+    top: 47%;
+    z-index: -99;
+}
+.pattern-2{
+    position: absolute;
+    z-index: -1;
+    left: -13%;
+    top: 180%;
+}
+.pattern-2 img{
+    opacity: 0.3;
+}
+.pattern-3{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 395%;
+}
+
